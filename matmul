@@ -1,6 +1,5 @@
 import numpy as np
 
-
 N  =  3
 
 A  =  sp.matrix( sp.rand( N , N ))
