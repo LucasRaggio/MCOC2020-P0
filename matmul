@@ -1,0 +1,20 @@
+import numpy as np
+
+
+N  =  3
+
+A  =  sp.matrix( sp.rand( N , N ))
+B  =  sp.matrix( sp.rand( N , N ))
+
+print ( A )
+print ( B )
+
+C  =  A * B      # Ojo numpy esto es multiplicacion de arreglos
+
+print ('\n')
+print ('El resultado de la matriz A por la matriz B correspode a :' )
+print ('\n')
+
+print ( C )
+
+
