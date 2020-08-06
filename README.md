@@ -2,6 +2,12 @@
 # Mi computador 
 # Lucas Raggio Barbieri 
 
+Marca / Modelo : Macbook  Pro Touch  Bar 2017 
+
+Tipo: Notebook 
+
+Fecha de compra: 2018 
+
 Sistema operativo: Apple MacOS Mojave
 
 Procesador : 3,1 GHz intel core i5 -7276U
