@@ -61,3 +61,4 @@ En la Zona 1 se puede obersar que mi computador tiene un tiempo de operación ma
 - Tengo un solo procesador en mi mac. En mac no se puede ver. Solo se puede ver lo de la figura que se encuentra abajo. Se puede ver que el procesador se encuentra en 0% (en python) y al hacer correr el programa sube considerablemente hasta mantenerse constante. 
 
 
+![alt text](https://github.com/LucasRaggio/MCOC2020-P0/blob/master/Procesador.png?raw=true)
