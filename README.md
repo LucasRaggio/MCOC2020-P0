@@ -30,7 +30,8 @@ Numero de Hilos: 4
 
 
 ###### ¿Como difiere del gráfico del profesor/ayudante?
-- La verdad es que 
+- Dividire en tres partes el grafico de tiempo de opercion, (1) Tamaño N matriz < 50, (2) Tamaño N matriz [50, 2000] y (3) Tamaño N matriz > 2000. 
+En la Zona 1 se puede obersar que mi computador tiene un tiempo de operación mayor. En la zona 2, tienen un comportamiento parecido y en la zona 3 la diferencia entre los tiempos de operacion es significativa (difieren por 
 
 ###### ¿A qué se pueden deber las diferencias?
 - Bueno 
