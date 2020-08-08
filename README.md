@@ -27,3 +27,22 @@ Numero de Hilos: 4
 # Desempeño MATMUL
 
 ![alt text](https://github.com/LucasRaggio/MCOC2020-P0/blob/master/filename.png?raw=true)
+
+
+###### ¿Como difiere del gráfico del profesor/ayudante?
+- La verdad es que 
+
+###### ¿A qué se pueden deber las diferencias?
+-Bueno 
+
+###### El gráfico de uso de memoria es lineal con el tamaño de matriz, pero el de tiempo transcurrido no lo es ¿porqué puede ser?
+-porque.. 
+
+###### ¿Qué versión de python está usando?
+-siii 
+
+###### ¿Qué versión de numpy está usando?
+-wena 
+
+###### Durante la ejecución de su código ¿se utiliza más de un procesador? Muestre una imagen de su uso de procesador durante alguna corrida para confirmar. 
+- buena pregunta 
