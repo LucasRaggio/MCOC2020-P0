@@ -26,7 +26,7 @@ Numero de Hilos: 4
 
 # Desempeño MATMUL
 
-![alt text](https://github.com/LucasRaggio/MCOC2020-P0/blob/master/filename.png?raw=true)
+![alt text](https://github.com/LucasRaggio/MCOC2020-P0/blob/master/Grafico.png?raw=true)
 
 
 ###### ¿Como difiere del gráfico del profesor/ayudante?
