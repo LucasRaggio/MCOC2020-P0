@@ -49,7 +49,7 @@ En la Zona 1 se puede obersar que mi computador tiene un tiempo de operación ma
 
 - La operación matricial (matriz de N x N) para encontrar cada termino que compone la matriz requiere de N operaciónes, por lo tanto, al ejecutar la multiplicaciones de matrices se hacen N^3 operaciones (multiplicaciones y suma). Las operaciones son diferentes ya que provienen de numeroes aleatoreos y deben guardarse en el programa. Sin embargo, la ram puede ser el cuello de botella.
 
--Mientras corria el programa realizaba otro trabajo el cual pudo haber afectado. 
+- Mientras corria el programa realizaba otro trabajo el cual pudo haber afectado. 
 
 ###### ¿Qué versión de python está usando?
 - 3.8 
