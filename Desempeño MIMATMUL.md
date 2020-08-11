@@ -22,8 +22,11 @@
 ![alt text](https://github.com/LucasRaggio/MCOC2020-P0/blob/master/Procesador.png?raw=true)
 
 
+
+
 ## Utilizando la funcion mimatmul (a mano)
 ![alt text](https://github.com/LucasRaggio/MCOC2020-P0/blob/master/CPU.png?raw=true)
+
 
 
 ## Se puede observar grandes diferencias 
