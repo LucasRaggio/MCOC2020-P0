@@ -30,7 +30,7 @@ Numero de Hilos: 4
 
 
 ###### ¿Como difiere del gráfico del profesor/ayudante?
-- Dividire en tres partes el grafico de tiempo de opercion, (1) Tamaño N matriz < 50, (2) Tamaño N matriz [50, 2000] y (3) Tamaño N matriz > 2000. 
+- Dividire en tres partes el grafico de tiempo de operción, (1) Tamaño N matriz < 50, (2) Tamaño N matriz [50, 2000] y (3) Tamaño N matriz > 2000. 
 En la Zona 1 se puede obersar que mi computador tiene un tiempo de operación mayor. En la zona 2, tienen un comportamiento parecido y en la zona 3 la diferencia entre los tiempos de operacion es significativa (difieren por 20 s). 
 
 - En el tiempo de operacion 
@@ -107,8 +107,19 @@ En la Zona 1 se puede obersar que mi computador tiene un tiempo de operación ma
 
 ![alt text](https://github.com/LucasRaggio/MCOC2020-P0/blob/master/E4-1.png?raw=true)
 
-En primer lugar se comparan los resultados de tiempo de operacion y uso de memoria  entre los difentes tipos de numeros utilizados en cada caso. 
+En primer lugar se comparan los resultados de tiempo de operación y uso de memoria  entre los difentes tipos de numeros utilizados en cada caso. 
 
-  * Caso 1:  Se puede observar que los numeros double requieren de un mayor espacio. El tiempo de operacion es igual para ambos tipos de numeros. 
+  * Caso 1:  Se puede observar que los numeros double requieren de un mayor espacio. El tiempo de operación es igual para ambos tipos de números. 
   * Caso 2:  Comparando la memoria se tiene que:  Half < Single < Double < Long double. Respecto al tiempo de operación se observa una leve diferencia siendo el más rapido Half,  Single,  Double y  Longdouble el más lento. 
+  * Caso 3: Ocurre exactamente lo mismo que en el caso 2. 
+  
+  
+ En segundo lugar se comparan los resultados metodos utilizados. Caso 1 vs Caso 2 vs Caso 3
+ 
+   * Caso 1:  Se puede observar que los numeros double requieren de un mayor espacio. El tiempo de operación es igual para ambos tipos de números. 
+   * Caso 2:  Comparando la memoria se tiene que:  Half < Single < Double < Long double. Respecto al tiempo de operación se observa una leve diferencia siendo el más rapido Half,  Single,  Double y  Longdouble el más lento. 
+   * Caso 3: Ocurre exactamente lo mismo que en el caso 2. 
+ 
+ 
+  
 
