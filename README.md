@@ -107,6 +107,8 @@ En la Zona 1 se puede obersar que mi computador tiene un tiempo de operación ma
 
 ![alt text](https://github.com/LucasRaggio/MCOC2020-P0/blob/master/E4-1.png?raw=true)
 
+Nota: En el caso uno, los numeros half y longdouble no son compatibles con numpy.
+
 En primer lugar se comparan los resultados de tiempo de operación y uso de memoria  entre los difentes tipos de numeros utilizados en cada caso. 
 
   * Caso 1:  Se puede observar que los numeros double requieren de un mayor espacio. El tiempo de operación es igual para ambos tipos de números. 
@@ -116,10 +118,29 @@ En primer lugar se comparan los resultados de tiempo de operación y uso de memo
   
  En segundo lugar se comparan los resultados metodos utilizados. Caso 1 vs Caso 2 vs Caso 3
  
-   * Caso 1:  Se puede observar que los numeros double requieren de un mayor espacio. El tiempo de operación es igual para ambos tipos de números. 
-   * Caso 2:  Comparando la memoria se tiene que:  Half < Single < Double < Long double. Respecto al tiempo de operación se observa una leve diferencia siendo el más rapido Half,  Single,  Double y  Longdouble el más lento. 
-   * Caso 3: Ocurre exactamente lo mismo que en el caso 2. 
- 
- 
+   * Se puede observar que utilizando numeros sigles el caso de menor teimpo de operacion es el 2, despues 3 y por ultimo el 1. 
+   * En general no se puede observar grandes diferencies  en terminos de tiempo de operación en los casos. 
+
+
+¿Qué algoritmo de inversión cree que utiliza cada método (ver wiki)?
+
+  * Método 1: Diagonaliza la matriz inicial. 
+  * Método 2 y 3:  Estos metodos utilizan la biblioteca de scipy.linalg, la cual contiene las funciones que numpy y algunas otras más. Para encontrar la inversa diagonaliza la matriz pero utilizando algoritmos numeros mas rápidos (minimos cuadrados). Compila utilizando otro soporte. 
+
+  Fuente metodo 2 y 3 : https://docs.scipy.org/doc/scipy/reference/tutorial/linalg.html
   
+  
+  
+  ¿Como incide el paralelismo y la estructura de caché de su procesador en el desempeño en cada caso?
+  
+  La computacion paralela puede hacer diferentes procesos al mismo tiempo. Esto sirve, por ejemplo resolver grandes problemas en muchos pequenos y resolverlos al mismo tiempo. La cache es la memoria  temporal que guarda los ratos para que se puedan procesar con una mayor rapidez. 
+  
+  En ambos casos se puede observar que cuando aumenta la memoria en uso lo procesos se vuelven mas lentos debido a que se acaba la memoria de cache y el computador utiliza memorias mas lentas. 
+  
+  En mi computador no se pueden ver la cantidad de procesadores activos. Por lo tanto es dificil hablar del desempeno en cada caso. 
+  
+  
+Definción de velocidades segun memoria: 
+
+  * Hay una jerarquía de velocidad en el computador. Disco duro es lo mas lento. Despues de la memoria ram. Cuando se excede la Ram el sistema trata de seguir procesando y lo que hace el computador es paginar el disco (es muy lento). Las caches es la memoria entre la memoria Ram y donde realmente ocurren los datos. Dentro de las memorias hay diferentes velocidades. El registro es la memoria que se encuentra en el procesador y es las MAS rapida de todas. 
 
