@@ -109,6 +109,6 @@ En la Zona 1 se puede obersar que mi computador tiene un tiempo de operación ma
 
 En primer lugar se comparan los resultados de tiempo de operacion y uso de memoria  entre los difentes tipos de numeros utilizados en cada caso. 
 
-  * Caso 1:  se puede observar que los numeros double requieren de un mayor espacio. El tiempo de operacion es igual para ambos tipos de numeros. 
-  * Caso 2: 
+  * Caso 1:  Se puede observar que los numeros double requieren de un mayor espacio. El tiempo de operacion es igual para ambos tipos de numeros. 
+  * Caso 2:  Comparando la memoria se tiene que:  Half < Single < Double < Long double. Respecto al tiempo de operación se observa una leve diferencia siendo el más rapido Half,  Single,  Double y  Longdouble el más lento. 
 
