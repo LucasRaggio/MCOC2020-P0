@@ -1,6 +1,6 @@
 # MCOC2020-P0
-# Mi computador 
-# Lucas Raggio Barbieri 
+# E1 Mi computador 
+
 
 Marca / Modelo : Macbook  Pro Touch  Bar 2017 
 
@@ -24,7 +24,7 @@ Nucleos: 2
 
 Numero de Hilos: 4 
 
-# Desempeño MATMUL
+# E2 Desempeño MATMUL
 
 ![alt text](https://github.com/LucasRaggio/MCOC2020-P0/blob/master/Grafico.png?raw=true)
 
@@ -62,3 +62,8 @@ En la Zona 1 se puede obersar que mi computador tiene un tiempo de operación ma
 
 
 ![alt text](https://github.com/LucasRaggio/MCOC2020-P0/blob/master/Procesador.png?raw=true)
+
+
+
+
+
