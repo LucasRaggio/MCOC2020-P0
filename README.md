@@ -107,3 +107,8 @@ En la Zona 1 se puede obersar que mi computador tiene un tiempo de operación ma
 
 ![alt text](https://github.com/LucasRaggio/MCOC2020-P0/blob/master/E4-1.png?raw=true)
 
+En primer lugar se comparan los resultados de tiempo de operacion y uso de memoria  entre los difentes tipos de numeros utilizados en cada caso. 
+
+  * Caso 1:  se puede observar que los numeros double requieren de un mayor espacio. El tiempo de operacion es igual para ambos tipos de numeros. 
+  * Caso 2: 
+
