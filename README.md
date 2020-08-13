@@ -65,5 +65,5 @@ En la Zona 1 se puede obersar que mi computador tiene un tiempo de operación ma
 
 
 
-
+![alt text](https://github.com/LucasRaggio/MCOC2020-P0/blob/master/E4-1.png?raw=true)
 
