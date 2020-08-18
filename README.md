@@ -169,4 +169,19 @@ A continuación se describen los metodos utilizados. Metodo dos pasos = (Paso 1)
   ![alt text](https://github.com/LucasRaggio/MCOC2020-P0/blob/master/Entrega%206/E6.png?raw=true)
 
 
-Analisis de rapidez de los métodos utilizados
+###### Analisis de rapidez de los métodos utilizados:
+Para el analisis se diviran los datos en 3 grupos. (1) Matrices pequeñas (N < 20), (2) Matrices medianas (20 < N < 500) y (3) Matrices grandes (N > 500)
+
+Matrices pequeñas: No se presenta una clara diferencia entre los metodos de dos pasos y un paso. 
+Matrices medianas: Diferencias en los tiempos de la libreria scipy vs numpy. La libreria numpy lidera en este tipo de matrices. 
+Matrices grandes : Los métodos de dos pasos son considerablemente mas lentos (negra, azul y verde). No se presenta una gran diferencia entre la libreria de scipy vs la de numpy. 
+
+###### CPU 
+
+Al inicio del programa se utilizo un 270 % del procesador. Esto se debe a que se comienzan a importar las librerias.El computador enciende los ventiladors y el CPU se mantuvo constante en 198% al igual que en las entregas pasadas. Pareciera que los venntiladores no son capaces de infriar al procesador y disminuye la capacidad para evitar altas temperaturas. Luego de 20 min la CPU bajo hasta un 170% (Trabajaba para N = 5000), probablemente sea por la temperatura. 
+
+
+
+
+
+
