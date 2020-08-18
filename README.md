@@ -160,8 +160,11 @@ A continuación se describen los metodos utilizados. Metodo dos pasos = (Paso 1)
 
   * Numpy_inv             : Método de dos pasos utilizando la libreria numpy. (np.linalg.inv(A))
   * Numpy_solver          : Se resuelve el sistema con un paso.               (x = np.linalg.solve(A , B))
-  * Scipy_inv             : Metodo de dos pasos utilizando librerio scipy     (sp.linalg.inv(A))
-  * Sp_Sol_OverOFF_gen.   : 
+  * Scipy_inv             : Metodo de dos pasos utilizando libreria scipy     (sp.linalg.inv(A))
+  * Sp_Sol_OverOFF_gen    : Scipy con Overwrite Off y matriz general   sp.linalg.solve(a, b, overwrite_a=False, overwrite_b=False , assume_a='gen')
+  * Sp_Sol_OverON_gen     : Scipy con Overwrite ON  y matriz general   sp.linalg.solve(a, b, overwrite_a=True, overwrite_b=True ,   assume_a='gen')
+  * Sp_Sol_OverOFF_sym    : Scipy con Overwrite OFF y matriz simetrica sp.linalg.solve(a, b, overwrite_a=False, overwrite_b=False , assume_a='sym')
+  * Sp_Sol_OverON_sym     : Scipy con Overwrite ON y matriz simetrica sp.linalg.solve(a, b, overwrite_a=True, overwrite_b=True , assume_a='sym')
 
   ![alt text](https://github.com/LucasRaggio/MCOC2020-P0/blob/master/Entrega%206/E6.png?raw=true)
 
