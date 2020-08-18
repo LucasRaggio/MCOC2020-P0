@@ -153,5 +153,11 @@ La figura anterior muestra el tiempo que demoran 2 metodos en resolver un proble
 
 # Entrega 6 
 
+En esta entrega se utilizan diferentes metodos con diferentes opciones para resolver un sistema de ecuaciones Ax = b. Se utilizaron 8 metodos con 10 corridas, para valores de N (incognitas) de hasta 10.000.
+
+###### Métodos 
+
   ![alt text](https://github.com/LucasRaggio/MCOC2020-P0/blob/master/Entrega%206/E6.png?raw=true)
 
+
+Analisis de rapidez de los métodos utilizados
