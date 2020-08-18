@@ -151,3 +151,7 @@ Definción de velocidades segun memoria:
 La figura anterior muestra el tiempo que demoran 2 metodos en resolver un problema con N incognitas. Se presenta que el metodo de dos pasos (calcula la inversa y multiplicación de matrices) es menos efectivo que el metodo ofrecido por la libreria numpy. 
 
 
+# Entrega 6 
+
+  ![alt text](https://github.com/LucasRaggio/MCOC2020-P0/blob/master/Entrega%206/E6.png?raw=true)
+
