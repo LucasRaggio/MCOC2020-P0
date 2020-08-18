@@ -143,4 +143,9 @@ En primer lugar se comparan los resultados de tiempo de operación y uso de memo
 Definción de velocidades segun memoria: 
 
   * Hay una jerarquía de velocidad en el computador. Disco duro es lo mas lento. Despues de la memoria ram. Cuando se excede la Ram el sistema trata de seguir procesando y lo que hace el computador es paginar el disco (es muy lento). Las caches es la memoria entre la memoria Ram y donde realmente ocurren los datos. Dentro de las memorias hay diferentes velocidades. El registro es la memoria que se encuentra en el procesador y es las MAS rapida de todas. 
+  
+  # Entrega 5 
+  
+  ![alt text](https://github.com/LucasRaggio/MCOC2020-P0/blob/master/Entrega%205/Sistema%20de%20ecuaciones.png?raw=true)
+ 
 
