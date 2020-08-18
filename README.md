@@ -153,9 +153,15 @@ La figura anterior muestra el tiempo que demoran 2 metodos en resolver un proble
 
 # Entrega 6 
 
-En esta entrega se utilizan diferentes metodos con diferentes opciones para resolver un sistema de ecuaciones Ax = b. Se utilizaron 8 metodos con 10 corridas, para valores de N (incognitas) de hasta 10.000.
+En esta entrega se utilizan diferentes metodos con diferentes opciones para resolver un sistema de ecuaciones Ax = b. Se utilizaron 7 metodos con 10 corridas, para valores de N (incognitas) de hasta 10.000.
 
-###### Métodos 
+## Métodos 
+A continuación se describen los metodos utilizados. Metodo dos pasos = (Paso 1) Matriz inversa de A ;; (Paso 2) Innv_A * x.
+
+  * Numpy_inv             : Método de dos pasos utilizando la libreria numpy. (np.linalg.inv(A))
+  * Numpy_solver          : Se resuelve el sistema con un paso.               (x = np.linalg.solve(A , B))
+  * Scipy_inv             : Metodo de dos pasos utilizando librerio scipy     (sp.linalg.inv(A))
+  * Sp_Sol_OverOFF_gen.   : 
 
   ![alt text](https://github.com/LucasRaggio/MCOC2020-P0/blob/master/Entrega%206/E6.png?raw=true)
 
