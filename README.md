@@ -215,7 +215,7 @@ Estabilidad de las corridas:
 
 ###### Solucion con matrices llenas  
 
-###### Solucion con matrices llenas 
+###### Solucion con matrices dispersas  
 
 Diferencias  en el comportamiento de los algoritmos en el caso de matrices llenas y dispersas:
 
@@ -234,11 +234,11 @@ Estabilidad de las corridas:
   4.
   
   
-## ❍ Complejidad algorítmica de SOLVE
+## ❍ Complejidad algorítmica de INV
 
-###### Solucion con matrices llenas  
+###### Inversa con matriz llena 
 
-###### Solucion con matrices llenas 
+###### Inversa con matriz Dispersa 
 
 Diferencias  en el comportamiento de los algoritmos en el caso de matrices llenas y dispersas:
 
