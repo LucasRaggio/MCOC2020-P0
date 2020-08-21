@@ -211,20 +211,52 @@ Estabilidad de las corridas:
 
 
 
-## ❍ Complejidad algoritmica de MATMUL
+## ❍ Complejidad algorítmica de SOLVE
 
-###### multiplicación de matrices llenas 
+###### Solucion con matrices llenas  
 
-###### multiplicación de matrices dispersas 
+###### Solucion con matrices llenas 
 
 Diferencias  en el comportamiento de los algoritmos en el caso de matrices llenas y dispersas:
 
+  1.
+
 Complejidad asintotica para asamblado y solucion: 
+
+  2.
 
 ¿Como afecta el tamaño de las matrices al comportamiento aparente?
 
+  3.
+
 Estabilidad de las corridas: 
 
+  4.
+  
+  
+## ❍ Complejidad algorítmica de SOLVE
+
+###### Solucion con matrices llenas  
+
+###### Solucion con matrices llenas 
+
+Diferencias  en el comportamiento de los algoritmos en el caso de matrices llenas y dispersas:
+
+  1.
+
+Complejidad asintotica para asamblado y solucion: 
+
+  2.
+
+¿Como afecta el tamaño de las matrices al comportamiento aparente?
+
+  3.
+
+Estabilidad de las corridas: 
+
+  4.
+  
+  
 
 
 
