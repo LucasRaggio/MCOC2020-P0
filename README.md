@@ -257,6 +257,13 @@ Estabilidad de las corridas:
   4.
   
   
+☛ Código de ensamblaje de la matriz laplaciana usada
+
+
+
+☛ Comente cómo esta elección se ve reflejada en el desempeño y complejidad algorítmica mostrada.
+  
+  
 
 
 
