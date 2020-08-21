@@ -184,7 +184,7 @@ Al inicio del programa se utilizo un 270 % del procesador. Esto se debe a que se
 
 # E7: Matrices dispersas y complejidad computacional 
 
-## Complejidad algoritmica de MATMUL
+❍ ## Complejidad algoritmica de MATMUL
 
 ###### multiplicación de matrices llenas 
 
@@ -192,11 +192,7 @@ Al inicio del programa se utilizo un 270 % del procesador. Esto se debe a que se
 
 Diferencias  en el comportamiento de los algoritmos en el caso de matrices llenas y dispersas:
 
-¿Cual parece la complejidad asintótica (para LaTeX: N\rightarrow\infty
-N
-→
-∞
-)  para el ensamblado y solución en ambos casos y porqué?
+Complejidad asintotica para asamblado y solucion: 
 
 
 
