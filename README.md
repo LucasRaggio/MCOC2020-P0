@@ -224,10 +224,16 @@ Estabilidad de las corridas:
 ## ❍ Complejidad algorítmica de SOLVE
 
   ![alt text](https://github.com/LucasRaggio/MCOC2020-P0/blob/master/Entrega%207/SOLVE.png?raw=true)
+  
+NOTA: El analisis de ensamble de matrices es exactamente el mismo que en Complejidad algorítmica de MATMUl. Para no aburrir al lector, solo se hablara del tiempo de solucion. 
 
 Diferencias  en el comportamiento de los algoritmos en el caso de matrices llenas y dispersas:
 
-  1.
+  * El tiempo de solución de matrices dispersas es mas estable que las matrices llenas. 
+  
+  * El tiempo de solución es menor cuando se utiza matrices dispersas. 
+  
+  * La solucion utilizando matrices dispersas tiene un complejidad computacional del orden O(N) vs O($N^3$) 
 
 Complejidad asintotica para asamblado y solucion: 
 
