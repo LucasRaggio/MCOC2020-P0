@@ -286,7 +286,7 @@ Estabilidad de las corridas:
 ☛ Código de ensamblaje de la matriz laplaciana usada
 
 
-'''
+```
 from scipy.sparse import lil_matrix, eye
 from scipy.linalg import solve
 from scipy.sparse import csr_matrix
@@ -300,7 +300,7 @@ from Matrices_laplacianas_op import matriz_laplaciana_llena, matriz_laplaciana_d
 def matriz_laplaciana_llena(N, t=np.float32):
     e = np.eye(N) - np.eye(N,N,1)
     return t(e + e.T)
-'''
+```
 
 
 ☛ Comente cómo esta elección se ve reflejada en el desempeño y complejidad algorítmica mostrada.
