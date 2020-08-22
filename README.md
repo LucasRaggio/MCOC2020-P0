@@ -190,22 +190,34 @@ Al inicio del programa se utilizo un 270 % del procesador. Esto se debe a que se
 
 Diferencias  en el comportamiento de los algoritmos en el caso de matrices llenas y dispersas:
 
-  1.
+  * Los tiempos de ensamblado son mas lentos en las matrices dispersas que las llenas debido a que se utilizo una funcion de matrices laplacianas optimizada. Esta función solo permitia generar la matriz laplaciana de manera llena por lo que para generar la matriz dispera se utilizaba un convertidor. Sin embargo, la diferencia es minima. (1 segundo para matriz de 10000)
+  
+  * Tanto como el tiempo de solucion y de ensamblado, las matrices dispersas tienen una menor variablidad en los tiempos. Disperda + Estable. 
+  
+  * El tiempo de solucion, hay una gran diferencia. Con matrices dispersas se obtiene la solución en 10 ms (N =10000) vs 10 segundos. 
+  
+  * El tiempo de solucion en las matrices dispersas se mantiene constante. 
+  
+  * Al utilizar matrices dispersas se requeire de menos recursos lo que se ve reflado en el tiempo de solucion. 
+  
 
-Complejidad asintotica para asamblado y solucion: 
+Complejidad asintotica para ensamblado y solucion: 
 
-  2.
+  * Para el ensamblado el comportamiento en ambos tipos de matrices es semejante (explicado en punto anterior). Cuando el N es muy grande, tiende a una complejidad   O(N^3).
+  
+
+  * En el tiempo de solucion, las matrices dispersas tienden a una complejidad O(N) vs O(N^3) en las matrices llenas. Esto se debe a que la matriz dispersa saca ventaja del gran numeros de ceros que tiene lo que hace que se utice menos memoria y recursos computacionales. 
 
 ¿Como afecta el tamaño de las matrices al comportamiento aparente?
 
-  3.
+  * Como ya se ha mencionado, para el tiempo de ensamblado se puede observar que para ambos tipos de matrices practicamente el mismo. Para valores de N< 20, a medida que aumenta el valor los tiempos de ensamble se reducen. Para N > 50, mientras aumenta el tamaño de la matriz tambien lo hace el tiempo. 
+  
+  * En el tiempo de ensamble y solución, para valores de N< 20 el tiempo decrece a medida que aumenta el tiempo. Esto se debe a que para ejecutar el programa, se requiere de realizar otras operaciones. 
+  
 
 Estabilidad de las corridas: 
 
-  4.
-
-
-
+  * Como ya se ha mencioado anteriormente, las matrices dispersas presentan una mayor estabilidad para las corridas que las llenas. Se puede observar que a medida que el tamaño de la matriz aumenta, la estabilidad tambien lo hace. Esto se debe a que para valores de N < 100, los tiempos de solucion y de ensamble son mucho mas pequenos que para N >1000, por lo que cualquier operacion extra en el computador afecta el rendimiento. 
 
 
 
