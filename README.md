@@ -285,6 +285,7 @@ Estabilidad de las corridas:
 
 ☛ Código de ensamblaje de la matriz laplaciana usada
 
+
 '''
 from scipy.sparse import lil_matrix, eye
 from scipy.linalg import solve
