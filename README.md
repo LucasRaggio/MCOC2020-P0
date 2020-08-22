@@ -305,7 +305,11 @@ def matriz_laplaciana_llena(N, t=np.float32):
 
 ☛ Comente cómo esta elección se ve reflejada en el desempeño y complejidad algorítmica mostrada.
   
-  
+Se utilizo SIEMPRE esta función (para matrices dispersas y llenas) debido a que era mucho mas eficiente que una función utilizando ciclos for. Utilizando una función que contiene ciclo 'for' se demoraba alrededor de 60 segundos en ensamblar una matriz de 10.000. Por lo tanto, esta función demora 50 segundos menos, lo cual es bastante si se quiere realizar un programa eficiente. 
+
+Para convertir la matriz laplaciana de esta funcion a una matriz dispersa se utiliza  csr_matrix y csc_matrix. 
+
+
 
 
 
