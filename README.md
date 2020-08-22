@@ -233,19 +233,31 @@ Diferencias  en el comportamiento de los algoritmos en el caso de matrices llena
   
   * El tiempo de solución es menor cuando se utiza matrices dispersas. 
   
-  * La solucion utilizando matrices dispersas tiene un complejidad computacional del orden O(N) vs O($N^3$) 
+  * La solucion utilizando matrices dispersas tiene un complejidad computacional del orden O(N) vs O(N^3).
 
 Complejidad asintotica para asamblado y solucion: 
 
-  2.
+  * Como se ha mencionado anteriormente, las matrices dispersas en tiempos de solución son considerablemente mas eficientes que las matrices llenas. 
+  
+  * Para valores grandes de N se tiene que la  complejidad computacional  para matrcies disperas es del orden O(N) vs O(N^3) de las matrcies llenas. 
+  
+  * Las matrices dispersas en el tiempo de solución para N < 1000 tienen una complejidad constante, es decir, para valores N pertenecientes entre 0 y 1000, independientemente del tamaño de la matriz, el tiempo de solución NO cambia considerablemente. 
 
 ¿Como afecta el tamaño de las matrices al comportamiento aparente?
 
-  3.
+  * Para matrices dispersas a medida que aumenta el N, el tiempo de solución no aumenta considerablemente. 
+  
+  * Se puede observar que para N = 10000, utilizando matrices dispersas el tiempo de solucion es solo de 9 ms. Lo cual es claramente mas eficiente que utilizando matrcies llenas (10 segundos de solucion). 
+  
+  * Para N < 100, las matrices llenas a medida que aumenta el valor de N, el tiempo decrece. Esto se puedr deber a que para ejecutar el programa, requiere de procesos extras. Para N > 200, la complejidad computacional aumenta con el valor de N. 
+  
 
 Estabilidad de las corridas: 
 
-  4.
+  * Las matrices dispersas son mas estables. 
+  
+  * Matrices llenas existe una mayor variabilidad debido a que estas guardan toda la informacion de la matriz. 
+  
   
   
 ## ❍ Complejidad algorítmica de INV
