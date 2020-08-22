@@ -266,21 +266,23 @@ Estabilidad de las corridas:
 
 Diferencias  en el comportamiento de los algoritmos en el caso de matrices llenas y dispersas:
 
-  1.
+  * No presentan mayores diferencias entre las matrices utilizas para los tiempo, sin embargo, la pendiente de las matrices dispersas en el tiempo de solución es menos inclinada por lo que para matrices de tamaño > 10000, estas serian mas eficientes. 
 
 Complejidad asintotica para asamblado y solucion: 
 
-  2.
+  * Para los tiempos de solución, la complejidad es del orden O(N^2.5) para matrices dispersas y  O(N^4) para matrices llenas. 
 
 ¿Como afecta el tamaño de las matrices al comportamiento aparente?
 
-  3.
+  * Como se espera y a sido en todos los casos de complejidad algoritmica estudiados, para tamaños pequeños de N (N<30) el tiempo de ensamble y de solución decrece con el tamaño de N. Luego, la complejidad aumenta tal como se menciono en el punto anterior. 
 
 Estabilidad de las corridas: 
 
-  4.
+  * Como ya se ha mencionado en los puntos anteriores, las matrices dispersas son considerablemnte mas estables.
   
-  
+
+
+
 ☛ Código de ensamblaje de la matriz laplaciana usada
 
 
