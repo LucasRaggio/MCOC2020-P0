@@ -186,9 +186,7 @@ Al inicio del programa se utilizo un 270 % del procesador. Esto se debe a que se
 
 ## ❍ Complejidad algoritmica de MATMUL
 
-###### multiplicación de matrices llenas 
-
-###### multiplicación de matrices dispersas 
+  ![alt text](https://github.com/LucasRaggio/MCOC2020-P0/blob/master/Entrega%207/MATMUL.png?raw=true)
 
 Diferencias  en el comportamiento de los algoritmos en el caso de matrices llenas y dispersas:
 
@@ -213,9 +211,7 @@ Estabilidad de las corridas:
 
 ## ❍ Complejidad algorítmica de SOLVE
 
-###### Solucion con matrices llenas  
-
-###### Solucion con matrices dispersas  
+  ![alt text](https://github.com/LucasRaggio/MCOC2020-P0/blob/master/Entrega%207/SOLVE.png?raw=true)
 
 Diferencias  en el comportamiento de los algoritmos en el caso de matrices llenas y dispersas:
 
@@ -236,9 +232,7 @@ Estabilidad de las corridas:
   
 ## ❍ Complejidad algorítmica de INV
 
-###### Inversa con matriz llena 
-
-###### Inversa con matriz Dispersa 
+  ![alt text](https://github.com/LucasRaggio/MCOC2020-P0/blob/master/Entrega%207/INV.png?raw=true)
 
 Diferencias  en el comportamiento de los algoritmos en el caso de matrices llenas y dispersas:
 
